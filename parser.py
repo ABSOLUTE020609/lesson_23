@@ -1,6 +1,6 @@
 import requests
 from bs4 import BeautifulSoup
-url = 'https://dedmorozural.ru/'
+url = 'https://stopgame.ru'
 responce = requests.get(url)
 print(responce.status_code)
 print(responce.text)
